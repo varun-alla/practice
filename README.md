@@ -1,6 +1,6 @@
 # Training
 - Code Complete
-1. 
+1. Done
 2. 
 3. 
 4. 
@@ -8,7 +8,7 @@
 6.
 
 - Review
-1. 
+1. In progress
 2. 
 3. 
 4. 
