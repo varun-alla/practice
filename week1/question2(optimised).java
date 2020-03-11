@@ -12,7 +12,7 @@ class question2
 			}
 	}
 	public int minFlips(int a, int b, int c) {
-    int count=0;
+		int count=0;
 		while(a>0||b>0||c>0){
 			int x = c&1;
 			int y = a&1;
@@ -23,17 +23,17 @@ class question2
 			if(x==0){
 			       if(y==1&&z==1){
 					count = count+2;
-					}else if(y==1&&z==0){
+				}else if(y==1&&z==0){
 					count++;
-					}else if(y==0&&z==1){
+				}else if(y==0&&z==1){
 					count++;
-					}
-            }	
+				}
+            		}	
 			else{ 
-                if(y==0&&z==0){
-				        count++;
-					}
-            }
+                		if(y==0&&z==0){
+				     count++;
+				}
+            		}
 		}
 		return count;
     }
