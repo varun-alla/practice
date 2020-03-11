@@ -7,8 +7,9 @@ class question2
 		int[] input3 = {5,3,1,7,8,8,5,4,8};
 		int[] expectedout = {3,3,1,0,3,6,1,3,3};
 		int[] output = new int[input1.length];
+		question2 q = new question2();
 		for(int i=0;i<input1.length;i++){
-            System.out.println(minFlip(input1[i],input2[i],input3[i])+" -->"+expectedout[i]);
+            System.out.println(q.minFlips(input1[i],input2[i],input3[i])+" -->"+expectedout[i]);
 			}
 	}
 	public int minFlips(int a, int b, int c) {
