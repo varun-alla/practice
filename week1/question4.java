@@ -4,14 +4,14 @@ class  question4{
 	int[] outputs = new int[inputs.length];
 	int[] expoutputs = {0,1,-1,32,2,3,-1,-1,0,4};
 	question4 q = new question4();
-	for(int i=0;i<inputs.length;i++)	{		//use curly braces
+	for(int i=0;i<inputs.length;i++)	{	
 		outputs[i]=q.Replacement(inputs[i]);
 	}
 	for(int i=0;i<inputs.length;i++){
 		System.out.println(outputs[i]+" "+expoutputs[i]);
 	}
 	}
-	int Replacement(int n) {                     //same function declaration is not possible. Dont use static methods
+	int Replacement(int n) {                     //same function declaration is not possible.
 																	 //java-methon-overloading
 																     // create object - question4 q = new question4();
 		return Replacement(n,0);
