@@ -1,16 +1,23 @@
-# Training
-- Code Complete
+- Training
 1. 
-2. Done
+2. 
 3. 
-4. Done
-5. Done
-6. Done
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
 
 - Review
 1. 
 2. 
 3. 
-4. In progress - added review comments. Start working on best approach as well
+4. 
 5. 
-6. In Progress - worst approach works. Work on Best approach for one more day  
+6. 
+7. 
+8. 
+9. 
+10. 
