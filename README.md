@@ -1,5 +1,5 @@
 - Training
-1. DONE
+1. DONE(MON)
 2. 
 3. 
 4. 
