@@ -12,15 +12,15 @@ class question1
 	}
 	int print(int count){
 		if(count<0){
-			return -1;
+		return -1;
 		}
 		if(count==0){
-			return 0;
+		return 0;
 		}
 		if(count==1){
-			return 1;
+		return 1;
 		}
-		char[] c = new char[2*count];
+		char[] c = new char[count];
 		return print_helper(c,count,count,0,0);
 	}
 	int print_helper(char[] c,int left,int right,int i,int count){
