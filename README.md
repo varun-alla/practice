@@ -1,5 +1,5 @@
 - Training
-1. DONE(MON)
+1. DONE(MON) - resolved changes
 2. 
 3. 
 4. 
