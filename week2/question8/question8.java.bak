@@ -1,0 +1,13 @@
+import java.util.*;
+class question6 
+{
+	public static void main(String[] args) 
+	{
+		System.out.println("Hello World!");
+	}
+	int median(int[] a,int[] b){
+		List<Integer> al = Arrays.asList(a,Integer);
+		List<Integer> bl= Arrays.asList(b);
+		
+	}
+}
