@@ -20,20 +20,17 @@ class question1
 		if(count==1){
 			return 1;
 		}
-		char[] c = new char[2*count];
-		return print_helper(c,count,count,0,0);
+		return print_helper(count,count,0,0);
 	}
-	int print_helper(char[] c,int left,int right,int i,int count){
+	int print_helper(int left,int right,int i,int count){
 		if( left == 0 && right == 0){
 			return count+1;
 		}
 		if(left>0){
-			c[i]='(';
-			count=print_helper(c,left-1,right,i+1,count);
+			count=print_helper(left-1,right,i+1,count);
 		}
 		if(left<right){
-			c[i]=')';
-			count = print_helper(c,left,right-1,i+1,count);
+			count = print_helper(left,right-1,i+1,count);
 		}
 		return count;
 	}

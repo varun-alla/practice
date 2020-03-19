@@ -1,9 +1,9 @@
 - Training
 1. DONE(MON) - resolved changes
-2. 
-3. 
-4. 
-5. 
+2. Done(thu)
+3. Done(thu)
+4. Done(thu)
+5. Done(thu)
 6. 
 7. 
 8. 

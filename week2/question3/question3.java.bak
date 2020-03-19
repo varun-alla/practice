@@ -1,0 +1,19 @@
+class question3 
+{
+	public static void main(String[] args) 
+	{
+		int[] arr = {-1,-1,-1,2,3,4,-1};
+		int k =-1;
+		question3 q =new question3();
+		System.out.print(q.count(arr,0,k,0));
+	}//recurtion
+	int count(int[] arr,int count,int k,int i){
+		if(i==arr.length){
+			return count;
+			}
+		if(arr[i]==k){
+			count++;
+		}
+		return count(arr,count,k,i+1);
+	}
+}//tried using binary search but corner cases aren't satisfying
