@@ -10,7 +10,7 @@ class question1
 			System.out.println(" "+count);
 		}										//writing outputs is clumsy -->so did not write--> please execute .class file to see output
 	}
-	int print(int count){
+	int count(int count){
 		if(count<0){
 			return -1;
 		}
@@ -20,9 +20,9 @@ class question1
 		if(count==1){
 			return 1;
 		}
-		return print_helper(count,count,0,0);
+		return count_helper(count,count,0,0);
 	}
-	int print_helper(int left,int right,int i,int count){
+	int count_helper(int left,int right,int i,int count){
 		if( left == 0 && right == 0){
 			return count+1;
 		}
